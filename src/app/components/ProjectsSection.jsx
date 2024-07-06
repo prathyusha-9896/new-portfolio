@@ -19,7 +19,7 @@ const projectsData = [
     title: "Simple AI Powered",
     description: "Company's website",
     image: "/images/projects/2.svg",
-    tag: ["All", "Web"],
+    tag: ["All", "Web",, "Mobile"],
     gitUrl: "https://github.com/prathyusha-9896/simple",
     previewUrl: "https://thesimpleai.com/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Neet-AI-Tutor ",
     description: "Web Application",
     image: "/images/projects/3.svg",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "https://neetaitutor.thesimpleai.com/",
   },
@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/4.svg",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/prathyusha-9896/portfolio-new",
-    previewUrl: "/",
+    previewUrl: "https://prathyusha-webdev.vercel.app/",
   },
   {
     id: 5,
@@ -50,7 +50,42 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-
+  {
+    id: 6,
+    title: "Habot",
+    description: "The website I developed as part of my React Developer role assignment for HABOT",
+    image: "/images/projects/7.svg",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/prathyusha-9896/habot_project",
+    previewUrl: "https://prathyusha-habot-project.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Figma Design",
+    description: "Designed this beautiful project on figma",
+    image: "/images/projects/8.svg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/prathyusha-9896/Figma-design-ecommerce-website?tab=readme-ov-file",
+    previewUrl: "https://www.figma.com/proto/5wj9hFLgaSKeNJHYiuQZfD/Illustrations?node-id=44-26&starting-point-node-id=44%3A26&t=bMYroDPxxnifIw8F-1",
+  },
+  {
+    id: 8,
+    title: "React Flow Builder",
+    description: "Developed this React flow builder",
+    image: "/images/projects/9.svg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/prathyusha-9896/chatbot-flow-builder",
+    previewUrl: "https://reactflow-chatbot-builder.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Nasa API",
+    description: "Developed this Using Nasa API",
+    image: "/images/projects/10.svg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/prathyusha-9896/NASAAPI",
+    previewUrl: "https://prathyusha-9896.github.io/NASAAPI/index.html",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -93,7 +128,7 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className=" grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
