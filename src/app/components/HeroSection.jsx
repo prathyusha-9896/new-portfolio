@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import file from "../assets/file.png"
 import leaf from "../assets/leaf.png"
-import prathyushare from '../assets/prathyushare.pdf'
+import prathyusha from '../assets/prathyusha.pdf'
 const HeroSection = () => {
   return (
     <section className="lg:py-16 relative ">
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 Hire Me
               </Link>
               <a
-                href={prathyushare}
+                href={prathyusha}
                 className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#ffd365] to-[#d97321] hover:bg-slate-800 text-[#c1272d] mt-3 font-medium"
               >
                 <span className="block bg-[#fff2ee]  rounded-full px-5 py-2">
