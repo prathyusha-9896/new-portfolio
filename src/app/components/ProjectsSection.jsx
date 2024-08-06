@@ -86,6 +86,15 @@ const projectsData = [
     gitUrl: "https://github.com/prathyusha-9896/NASAAPI",
     previewUrl: "https://prathyusha-9896.github.io/NASAAPI/index.html",
   },
+  {
+    id: 10,
+    title: "Keep Notes",
+    description: "Keep Notes app inspired by Google Keep!",
+    image: "/images/projects/11.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/prathyusha-9896/KeepNotes",
+    previewUrl: "https://keep-notes-navy-two.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
